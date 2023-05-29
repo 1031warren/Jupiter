@@ -1,13 +1,41 @@
 body{
     background-color: aqua;
-    font-size: 18pt;
-    font-family :Georgia, 'Times New Roman', Times, serif;
     color: darkcyan;
 
 }
 
-h1{
+form{
 
-    font-size: 40pt;
-    color: green;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+label{
+    margin-bottom: 5px;
+  
+}
+
+input{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 2px;
+   
+.row{
+    padding-bottom: 10px;
+}
+   
+.error{
+    color: red;
+}
+    
+input[type="submit"]{
+    background-color: blue;
+    color: ivory;
+    cursor: pointer;
+}
+    
+input[type="submit"]:hover{
+   background-color: lightcoral;
+
 }
