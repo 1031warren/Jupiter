@@ -27,7 +27,7 @@
         <div class="row">
             <label>ID#</label>
             <input type="text" name="idNum">
-            <div class="error" id="idNumErr"><div>
+            <div class="error" id="idNumErr"></div>
         </div>
 
         <div class="row">
