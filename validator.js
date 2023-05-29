@@ -5,7 +5,7 @@ function printError(elemId, msg){
 }
 
 //this function will ensure that the form input invalid 
-function vaildateForm(){
+function validateForm(){
     //these are the inputs from the html text/input elements
     var fullName = document.appForm.fullName.value;
     var age = document.appForm.age.value;
